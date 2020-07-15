@@ -1,0 +1,29 @@
+{
+  "name": "silverback/wp-ecommerce",
+  "description": "A metapackage to manage installation of WP plugins to build a successfule ecommerce. Companion for silverback/wp-website",
+  "type": "metapackage",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Brando Meniconi",
+      "email": "b.meniconi@silverbackstudio.it"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "composer/installers": "^1.7",
+    "wpackagist-plugin/facebook-for-woocommerce": "^1.11",
+    "wpackagist-plugin/woo-product-timer": "^2.0",
+    "wpackagist-plugin/woocommerce": "^4.2",
+    "wpackagist-plugin/woocommerce-gateway-paypal-express-checkout": "^2.0",
+    "wpackagist-plugin/woocommerce-gateway-stripe": "^4.5",
+    "wpackagist-plugin/woocommerce-google-analytics-integration": "^1.4",
+    "wpackagist-plugin/woocommerce-services": "^1.23"
+  }
+}
